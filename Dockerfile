@@ -22,6 +22,8 @@ RUN apt-get clean &&\
   rm -rf /var/lib/apt/lists/* &&\
   rm -rf /tmp/*
 
+RUN mkdir /var/empty
+
 VOLUME /config
 VOLUME /data
 
