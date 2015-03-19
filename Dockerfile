@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-#Thanks to https://github.com/eatnumber1/docker-plex
 MAINTAINER Russ Harmon <eatnumber1@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
